@@ -1,0 +1,75 @@
+.section{
+    padding: 2rem 0;
+}
+
+.label{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+    border-radius: 20px;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    font-size: large;
+}
+
+.label span{
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 0.5rem;
+}
+
+.inputFile{
+    display: none;
+}
+
+.upload-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.view-images{
+    margin: 1rem .5rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.view-images button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: lightcoral;
+
+    
+}
+
+.view-images button:hover{
+    background-color: red;
+}
+.view-images p {
+    padding: 0 0.5rem;
+    margin: 0;
+}
+
+.upload-btn {
+    cursor: pointer;
+    display:  block;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background-color: green;
+}
+

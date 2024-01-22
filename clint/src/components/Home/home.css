@@ -1,0 +1,138 @@
+.first-part{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url(https://thumbs.dreamstime.com/z/food-paper-bag-donation-delivery-concept-free-space-text-oil-bread-cabbage-salad-vegetables-canned-top-view-dark-181377210.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+    
+}
+
+.part-name{
+  
+    font-weight: bold;
+}
+
+.second-part{
+    height: 100%;
+    width: 100%;
+}
+
+.images-partsecond{
+    height: 450px;
+    width: 80%;
+    margin: 50px auto;
+    background-image: url(https://thumbs.dreamstime.com/z/volunteers-raising-their-arms-front-food-donation-box-31448338.jpg);
+    background-size: cover;
+
+}
+
+.img-part{  
+    /* background-color: rgb(189, 239, 25);
+    height: 450;
+    width: 100%; */
+    display: flex;
+    margin-top: -250px;
+
+  
+
+}
+
+.img-p1{
+    
+    height: 450px;
+    width: 100%;
+    background-image: url(https://thumbs.dreamstime.com/z/volunteers-serving-food-poor-people-indoors-volunteers-serving-food-poor-people-125847645.jpg);
+    background-size: cover;
+
+
+}
+.img-p2{
+    background-image: url(https://thumbs.dreamstime.com/z/volunteers-giving-food-to-poor-people-desperate-need-concept-food-sharing-help-solve-hunger-homeless-volunteers-151386024.jpg);
+    background-size: cover;
+
+    height: 450px;
+
+    width: 100%;
+}
+.img-p3{
+    background-color: rgb(112, 83, 204);
+    height: 450px;
+    display: flex;
+    width: 100%;
+
+}
+
+
+/* BUTTON CODE */
+
+.join-us{
+    color: blue;
+    font-weight: 400;
+    font: bolder;
+    padding: 15px 80px;
+    border-radius: 30px;
+    border:none;
+    transition: all 0.5s;
+  cursor: pointer;
+    
+}
+
+.join-us:hover{
+    transition: 0.2;
+    cursor: pointer;
+    /* box-shadow: 0 0 5px #0c0c0b;
+    text-shadow: 0 0 5px #11110f; */
+
+
+}
+
+.join-us span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .join-us span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .join-us:hover span {
+    padding-right: 25px;
+  }
+  
+  .join-us:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(47, 37, 37);
+    
+  }
+
+
+  /* footer */
+
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
